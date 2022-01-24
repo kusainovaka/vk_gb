@@ -68,6 +68,7 @@ class FriendsListTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath, "🍏🍏🍏🍏🍏")
     }
+    
 }
 
 private extension FriendsListTableViewController {

@@ -18,6 +18,12 @@
 		8ED472F62785BC3E001147B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED472F42785BC3E001147B4 /* Main.storyboard */; };
 		8ED472F82785BC40001147B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED472F72785BC40001147B4 /* Assets.xcassets */; };
 		8ED472FB2785BC40001147B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED472F92785BC40001147B4 /* LaunchScreen.storyboard */; };
+		8EF66BF22799CE5500F87FBA /* GroupListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF66BF12799CE5500F87FBA /* GroupListCollectionViewController.swift */; };
+		8EF66BF62799D13700F87FBA /* GroupListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF66BF42799D13700F87FBA /* GroupListCollectionViewCell.swift */; };
+		8EF66BF72799D13700F87FBA /* GroupListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF66BF52799D13700F87FBA /* GroupListCollectionViewCell.xib */; };
+		8EF66BFA2799D59E00F87FBA /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF66BF92799D59E00F87FBA /* StarView.swift */; };
+		8EF66BFE2799DB1900F87FBA /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF66BFD2799DB1900F87FBA /* RoundedView.swift */; };
+		8EF66C012799DE3F00F87FBA /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF66C002799DE3F00F87FBA /* CustomView.swift */; };
 		8EFF46F42795DE1700720B6B /* FriendsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF46F32795DE1700720B6B /* FriendsListTableViewController.swift */; };
 		8EFF46F82795DF3500720B6B /* FriendsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF46F62795DF3500720B6B /* FriendsListTableViewCell.swift */; };
 		8EFF46F92795DF3500720B6B /* FriendsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EFF46F72795DF3500720B6B /* FriendsListTableViewCell.xib */; };
@@ -39,6 +45,12 @@
 		8ED472F72785BC40001147B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ED472FA2785BC40001147B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ED472FC2785BC40001147B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF66BF12799CE5500F87FBA /* GroupListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListCollectionViewController.swift; sourceTree = "<group>"; };
+		8EF66BF42799D13700F87FBA /* GroupListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListCollectionViewCell.swift; sourceTree = "<group>"; };
+		8EF66BF52799D13700F87FBA /* GroupListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupListCollectionViewCell.xib; sourceTree = "<group>"; };
+		8EF66BF92799D59E00F87FBA /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		8EF66BFD2799DB1900F87FBA /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		8EF66C002799DE3F00F87FBA /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		8EFF46F32795DE1700720B6B /* FriendsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewController.swift; sourceTree = "<group>"; };
 		8EFF46F62795DF3500720B6B /* FriendsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewCell.swift; sourceTree = "<group>"; };
 		8EFF46F72795DF3500720B6B /* FriendsListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsListTableViewCell.xib; sourceTree = "<group>"; };
@@ -96,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				8EBFB09527A324950010CDBD /* FriendsProfile */,
+				8EF66BFB2799DAF000F87FBA /* CustomView */,
+				8EF66BEF2799CE1E00F87FBA /* GroupList */,
 				8EFF46F12795DDD500720B6B /* FriendList */,
 				8ED472EE2785BC3E001147B4 /* AppDelegate.swift */,
 				8ED472F02785BC3E001147B4 /* SceneDelegate.swift */,
@@ -107,6 +121,66 @@
 				8EFF46FD2795EFF100720B6B /* TestViewController.swift */,
 			);
 			path = VKTestApp;
+			sourceTree = "<group>";
+		};
+		8EF66BEF2799CE1E00F87FBA /* GroupList */ = {
+			isa = PBXGroup;
+			children = (
+				8EF66BF32799D11900F87FBA /* Cell */,
+				8EF66BF02799CE3B00F87FBA /* ViewController */,
+			);
+			path = GroupList;
+			sourceTree = "<group>";
+		};
+		8EF66BF02799CE3B00F87FBA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8EF66BF12799CE5500F87FBA /* GroupListCollectionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8EF66BF32799D11900F87FBA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8EF66BF42799D13700F87FBA /* GroupListCollectionViewCell.swift */,
+				8EF66BF52799D13700F87FBA /* GroupListCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8EF66BF82799D58400F87FBA /* StarView */ = {
+			isa = PBXGroup;
+			children = (
+				8EF66BF92799D59E00F87FBA /* StarView.swift */,
+			);
+			path = StarView;
+			sourceTree = "<group>";
+		};
+		8EF66BFB2799DAF000F87FBA /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				8EF66BFF2799DE2700F87FBA /* CustomView */,
+				8EF66BFC2799DAF900F87FBA /* RoudedView */,
+				8EF66BF82799D58400F87FBA /* StarView */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		8EF66BFC2799DAF900F87FBA /* RoudedView */ = {
+			isa = PBXGroup;
+			children = (
+				8EF66BFD2799DB1900F87FBA /* RoundedView.swift */,
+			);
+			path = RoudedView;
+			sourceTree = "<group>";
+		};
+		8EF66BFF2799DE2700F87FBA /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				8EF66C002799DE3F00F87FBA /* CustomView.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		8EFF46F12795DDD500720B6B /* FriendList */ = {
@@ -204,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ED472FB2785BC40001147B4 /* LaunchScreen.storyboard in Resources */,
+				8EF66BF72799D13700F87FBA /* GroupListCollectionViewCell.xib in Resources */,
 				8EBFB09627A324960010CDBD /* FriendsProfile in Resources */,
 				8ED472F82785BC40001147B4 /* Assets.xcassets in Resources */,
 				8ED472F62785BC3E001147B4 /* Main.storyboard in Resources */,
@@ -226,8 +301,13 @@
 				8ED472F32785BC3E001147B4 /* ViewController.swift in Sources */,
 				8EFF46F82795DF3500720B6B /* FriendsListTableViewCell.swift in Sources */,
 				8EFF46F42795DE1700720B6B /* FriendsListTableViewController.swift in Sources */,
+				8EF66BF62799D13700F87FBA /* GroupListCollectionViewCell.swift in Sources */,
 				8EFF46FC2795EC0800720B6B /* FirendsListCellModel.swift in Sources */,
 				8ED472EF2785BC3E001147B4 /* AppDelegate.swift in Sources */,
+				8EF66BF22799CE5500F87FBA /* GroupListCollectionViewController.swift in Sources */,
+				8EF66BFA2799D59E00F87FBA /* StarView.swift in Sources */,
+				8EF66C012799DE3F00F87FBA /* CustomView.swift in Sources */,
+				8EF66BFE2799DB1900F87FBA /* RoundedView.swift in Sources */,
 				8ED472F12785BC3E001147B4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
