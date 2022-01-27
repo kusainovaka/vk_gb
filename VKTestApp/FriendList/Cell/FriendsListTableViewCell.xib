@@ -34,7 +34,7 @@
                 <outlet property="contactImageView" destination="Wsv-Oq-LKO" id="C9r-RD-yLa"/>
                 <outlet property="titleLabel" destination="9da-TT-Ps4" id="uEU-Fi-Gi8"/>
             </connections>
-            <point key="canvasLocation" x="103" y="105"/>
+            <point key="canvasLocation" x="102.89855072463769" y="104.46428571428571"/>
         </tableViewCell>
     </objects>
 </document>
