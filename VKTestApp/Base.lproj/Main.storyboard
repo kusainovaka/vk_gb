@@ -220,20 +220,32 @@
             </objects>
             <point key="canvasLocation" x="3057" y="34"/>
         </scene>
-        <!--View Controller-->
+        <!--Animation Part Three View Controller-->
         <scene sceneID="kEH-oZ-NAC">
             <objects>
-                <viewController id="s8c-eU-MZL" customClass="ViewController" customModule="VKTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="s8c-eU-MZL" customClass="AnimationPartThreeViewController" customModule="VKTestApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KD6-7m-wgd">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNw-XN-kRA">
+                                <rect key="frame" x="139" y="185" width="88" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="0Ti-4g-Yj9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="ZNw-XN-kRA" id="AWJ-YC-FzB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w0l-Ft-sZF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-428" y="-754"/>
+            <point key="canvasLocation" x="-429.23076923076923" y="-754.26540284360181"/>
         </scene>
     </scenes>
     <resources>

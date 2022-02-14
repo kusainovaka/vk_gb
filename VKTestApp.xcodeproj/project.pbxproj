@@ -12,6 +12,8 @@
 		8EBFB08E27A30AEF0010CDBD /* FriendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBFB08D27A30AEF0010CDBD /* FriendHeaderView.swift */; };
 		8EBFB09327A317510010CDBD /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBFB09227A317510010CDBD /* ProfileHeaderView.swift */; };
 		8EBFB09627A324960010CDBD /* FriendsProfile in Resources */ = {isa = PBXBuildFile; fileRef = 8EBFB09527A324950010CDBD /* FriendsProfile */; };
+		8E5C0D8D27AAD85300603AD5 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C0D8C27AAD85300603AD5 /* AnimationViewController.swift */; };
+		8EBC7B5B27AC42F8003BBC3A /* AnimationPartThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBC7B5A27AC42F8003BBC3A /* AnimationPartThreeViewController.swift */; };
 		8ED472EF2785BC3E001147B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED472EE2785BC3E001147B4 /* AppDelegate.swift */; };
 		8ED472F12785BC3E001147B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED472F02785BC3E001147B4 /* SceneDelegate.swift */; };
 		8ED472F32785BC3E001147B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED472F22785BC3E001147B4 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 		8EBFB08D27A30AEF0010CDBD /* FriendHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendHeaderView.swift; sourceTree = "<group>"; };
 		8EBFB09227A317510010CDBD /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		8EBFB09527A324950010CDBD /* FriendsProfile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FriendsProfile; sourceTree = "<group>"; };
+		8E5C0D8C27AAD85300603AD5 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		8EBC7B5A27AC42F8003BBC3A /* AnimationPartThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPartThreeViewController.swift; sourceTree = "<group>"; };
 		8ED472EB2785BC3E001147B4 /* VKTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED472EE2785BC3E001147B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ED472F02785BC3E001147B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				8EBFB09527A324950010CDBD /* FriendsProfile */,
+				8EF64B1B27AAD7EF002D9938 /* Animation */,
 				8EF66BFB2799DAF000F87FBA /* CustomView */,
 				8EF66BEF2799CE1E00F87FBA /* GroupList */,
 				8EFF46F12795DDD500720B6B /* FriendList */,
@@ -121,6 +126,15 @@
 				8EFF46FD2795EFF100720B6B /* TestViewController.swift */,
 			);
 			path = VKTestApp;
+			sourceTree = "<group>";
+		};
+		8EF64B1B27AAD7EF002D9938 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				8E5C0D8C27AAD85300603AD5 /* AnimationViewController.swift */,
+				8EBC7B5A27AC42F8003BBC3A /* AnimationPartThreeViewController.swift */,
+			);
+			name = Animation;
 			sourceTree = "<group>";
 		};
 		8EF66BEF2799CE1E00F87FBA /* GroupList */ = {
@@ -307,8 +321,10 @@
 				8EF66BF22799CE5500F87FBA /* GroupListCollectionViewController.swift in Sources */,
 				8EF66BFA2799D59E00F87FBA /* StarView.swift in Sources */,
 				8EF66C012799DE3F00F87FBA /* CustomView.swift in Sources */,
+				8E5C0D8D27AAD85300603AD5 /* AnimationViewController.swift in Sources */,
 				8EF66BFE2799DB1900F87FBA /* RoundedView.swift in Sources */,
 				8ED472F12785BC3E001147B4 /* SceneDelegate.swift in Sources */,
+				8EBC7B5B27AC42F8003BBC3A /* AnimationPartThreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

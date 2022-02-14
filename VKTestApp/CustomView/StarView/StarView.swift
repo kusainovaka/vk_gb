@@ -13,11 +13,24 @@ class StarView: UIView {
         super.draw(rect)
         guard let context = UIGraphicsGetCurrentContext() else { return }
         context.setStrokeColor(UIColor.red.cgColor)
-        
         let path = getPath()
 
         context.addPath(path.cgPath)
         context.strokePath()
+        
+        let circleLayer = CAShapeLayer()
+        circleLayer.backgroundColor = UIColor.red.cgColor
+        circleLayer.bounds = CGRect(x: 0, y: 0, width: 20, height: 20)
+        circleLayer.position = CGPoint(x: 40, y: 20)
+        circleLayer.cornerRadius = 10
+        layer.addSublayer(circleLayer)
+
+        let followPathAnimation = CAKeyframeAnimation(keyPath: "position")
+        followPathAnimation.path = getPath().cgPath
+        followPathAnimation.calculationMode = CAAnimationCalculationMode.paced
+        followPathAnimation.speed = 0.1
+        followPathAnimation.repeatCount = Float.infinity
+        circleLayer.add(followPathAnimation, forKey: nil)
     }
     
     func getPath() -> UIBezierPath {
