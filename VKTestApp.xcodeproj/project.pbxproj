@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EBFB08627A2EFA10010CDBD /* FriendsProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBFB08527A2EFA10010CDBD /* FriendsProfileViewController.swift */; };
+		8EBFB08A27A2EFC40010CDBD /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBFB08827A2EFC40010CDBD /* ProfileCollectionViewCell.swift */; };
+		8EBFB08E27A30AEF0010CDBD /* FriendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBFB08D27A30AEF0010CDBD /* FriendHeaderView.swift */; };
+		8EBFB09327A317510010CDBD /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBFB09227A317510010CDBD /* ProfileHeaderView.swift */; };
+		8EBFB09627A324960010CDBD /* FriendsProfile in Resources */ = {isa = PBXBuildFile; fileRef = 8EBFB09527A324950010CDBD /* FriendsProfile */; };
 		8ED472EF2785BC3E001147B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED472EE2785BC3E001147B4 /* AppDelegate.swift */; };
 		8ED472F12785BC3E001147B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED472F02785BC3E001147B4 /* SceneDelegate.swift */; };
 		8ED472F32785BC3E001147B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED472F22785BC3E001147B4 /* ViewController.swift */; };
@@ -21,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8EBFB08527A2EFA10010CDBD /* FriendsProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsProfileViewController.swift; sourceTree = "<group>"; };
+		8EBFB08827A2EFC40010CDBD /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		8EBFB08D27A30AEF0010CDBD /* FriendHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendHeaderView.swift; sourceTree = "<group>"; };
+		8EBFB09227A317510010CDBD /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		8EBFB09527A324950010CDBD /* FriendsProfile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FriendsProfile; sourceTree = "<group>"; };
 		8ED472EB2785BC3E001147B4 /* VKTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED472EE2785BC3E001147B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ED472F02785BC3E001147B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,11 +57,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8EBFB08C27A30ADD0010CDBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8EBFB08D27A30AEF0010CDBD /* FriendHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EBFB09427A3236A0010CDBD /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				8EBFB08827A2EFC40010CDBD /* ProfileCollectionViewCell.swift */,
+				8EBFB08527A2EFA10010CDBD /* FriendsProfileViewController.swift */,
+				8EBFB09227A317510010CDBD /* ProfileHeaderView.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		8ED472E22785BC3E001147B4 = {
 			isa = PBXGroup;
 			children = (
 				8ED472ED2785BC3E001147B4 /* VKTestApp */,
 				8ED472EC2785BC3E001147B4 /* Products */,
+				8EBFB09427A3236A0010CDBD /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +95,7 @@
 		8ED472ED2785BC3E001147B4 /* VKTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				8EBFB09527A324950010CDBD /* FriendsProfile */,
 				8EFF46F12795DDD500720B6B /* FriendList */,
 				8ED472EE2785BC3E001147B4 /* AppDelegate.swift */,
 				8ED472F02785BC3E001147B4 /* SceneDelegate.swift */,
@@ -82,6 +112,7 @@
 		8EFF46F12795DDD500720B6B /* FriendList */ = {
 			isa = PBXGroup;
 			children = (
+				8EBFB08C27A30ADD0010CDBD /* View */,
 				8EFF46FA2795EBEA00720B6B /* Model */,
 				8EFF46F52795DF1100720B6B /* Cell */,
 				8EFF46F22795DDDE00720B6B /* ViewController */,
@@ -173,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ED472FB2785BC40001147B4 /* LaunchScreen.storyboard in Resources */,
+				8EBFB09627A324960010CDBD /* FriendsProfile in Resources */,
 				8ED472F82785BC40001147B4 /* Assets.xcassets in Resources */,
 				8ED472F62785BC3E001147B4 /* Main.storyboard in Resources */,
 				8EFF46F92795DF3500720B6B /* FriendsListTableViewCell.xib in Resources */,
@@ -186,7 +218,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EBFB08A27A2EFC40010CDBD /* ProfileCollectionViewCell.swift in Sources */,
+				8EBFB08627A2EFA10010CDBD /* FriendsProfileViewController.swift in Sources */,
+				8EBFB09327A317510010CDBD /* ProfileHeaderView.swift in Sources */,
 				8EFF46FE2795EFF100720B6B /* TestViewController.swift in Sources */,
+				8EBFB08E27A30AEF0010CDBD /* FriendHeaderView.swift in Sources */,
 				8ED472F32785BC3E001147B4 /* ViewController.swift in Sources */,
 				8EFF46F82795DF3500720B6B /* FriendsListTableViewCell.swift in Sources */,
 				8EFF46F42795DE1700720B6B /* FriendsListTableViewController.swift in Sources */,
